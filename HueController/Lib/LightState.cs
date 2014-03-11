@@ -7,8 +7,8 @@ namespace HueController
     [DataContract]
     class LightState
     {
-        [DataMember (EmitDefaultValue=false)]
-        public UInt32 hue;
+        [DataMember]
+        public UInt16 hue;
         [DataMember]
         public Boolean on;
         [DataMember]
